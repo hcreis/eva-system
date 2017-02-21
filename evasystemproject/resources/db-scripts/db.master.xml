@@ -8,5 +8,6 @@
 		<dbms type="mysql" />
 	</preConditions>
 
-	<include file="resources/db-scripts/scripts/DDL/0.0.1/db-changelog-26-09-Create.sql" />
+	<!--<include file="resources/db-scripts/scripts/DDL/0.0.1/db-changelog-26-09-Create.sql" />-->
+	<include file="resources/db-scripts/scripts/DDL/0.0.1/db-changelog-20-02-17-Create.sql" />
 </databaseChangeLog>
