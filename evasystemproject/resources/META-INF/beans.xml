@@ -18,7 +18,7 @@
 	<mvc:annotation-driven />
 	<context:annotation-config />
 	<mvc:default-servlet-handler />
-	<context:component-scan base-package="evaschema"/>
+	<context:component-scan base-package="br.edu.fatec.eva"/>
 	<jpa:repositories base-package="br.edu.fatec.eva.repository" />
 
 	<bean id="entityManagerFactory"
