@@ -16,8 +16,6 @@
     	http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
 	<mvc:annotation-driven />
-	<context:annotation-config />
-	<mvc:default-servlet-handler />
 	<context:component-scan base-package="br.edu.fatec.eva"/>
 	<jpa:repositories base-package="br.edu.fatec.eva.repository" />
 
